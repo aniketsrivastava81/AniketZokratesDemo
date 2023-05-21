@@ -1,0 +1,7 @@
+def main(private field a, field b) {
+    assert(a + b == 10);
+    return;
+}
+// above eg uses zokrates.
+// private field a => scope limited.
+// assert checks the value; if it matches it returns a true bool.
